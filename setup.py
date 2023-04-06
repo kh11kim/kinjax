@@ -5,7 +5,7 @@ with open('README.md', encoding='utf-8') as f:
    
 setup(
    name='kinjax',
-   version='0.0.2', 
+   version='0.0.5', 
    description='This module calculates FK and Jacobian, accelerated by Jax to utilize JIT and GPU parallelization',
    long_description    = long_description,
    long_description_content_type='text/markdown',

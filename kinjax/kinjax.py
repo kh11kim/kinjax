@@ -246,3 +246,4 @@ def get_jacobian_fn(
         return jax.jit(jac_fn)
     else:
         return jax.jit(jax.vmap(jac_fn))
+
